@@ -49,6 +49,9 @@
 # song.artist = "Paul McCartney"  # Update artist
 # puts song.artist  # Output: Paul McCartney
 
+# Ruby doesn't check the type of an object explicitly but checks if the object responds to the methods being called on it.
+# Hence it is duck typed
+
 # --------------------------------------------------------------------------
 
 class Song

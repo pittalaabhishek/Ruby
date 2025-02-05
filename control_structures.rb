@@ -25,4 +25,17 @@ radiation = 4500
 # --INterpolation is possible if we use string inside double quotes instead of single quotes and also we can 
 # use complex expressions inside double quotes like we can calll functions from within the string.
 
+food = "pasta"
+
+case food
+  when "pasta"
+    puts "Italian delight" 
+  when "Sushi"
+    puts "Japanese Delight" 
+  else
+    puts "Surprise me!"
+end
+
+6.times {puts "Hello dude!"}
+
 
